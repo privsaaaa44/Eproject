@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decor Delight</title>
+     <link rel="website icon" type="png" href="images/Group 4.png" style="background-color: transparent;">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<link rel="stylesheet" href="contact us.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky top-0 shadow-sm" style="z-index: 1000;">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="images/Group 4.png" alt="Logo" class="navbar-logo" style="height: 69px
+;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+      <!-- Centered Links -->
+      <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-4 text-center">
+        <li class="nav-item"><a class="nav-link fs-5" href="home.html">Home</a></li>
+
+        <!-- Furniture Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown  fs-5" href="#" id="furnitureDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Furniture</a>
+          <ul class="dropdown-menu" aria-labelledby="furnitureDropdown">
+            <li><a class="dropdown-item fs-6" href="sofa.html">Sofas and Couches</a></li>
+            <li><a class="dropdown-item fs-6" href="bed.html">Beds and Mattresses</a></li>
+            <li><a class="dropdown-item fs-6" href="table.html">Tables</a></li>
+            <li><a class="dropdown-item fs-6" href="storage.html">Storage</a></li>
+          </ul>
+        </li>
+
+        <!-- Decor Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown fs-5" href="#" id="decorDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Decor</a>
+          <ul class="dropdown-menu" aria-labelledby="decorDropdown">
+            <li><a class="dropdown-item fs-6" href="decorrugs.html">Rugs and Carpets</a></li>
+            <li><a class="dropdown-item fs-6" href="decorcurtain.html">Curtains and Blinds</a></li>
+            <li><a class="dropdown-item fs-6" href="decormirror.html">Wall Art and Mirrors</a></li>
+            <li><a class="dropdown-item fs-6" href="cusiondecor.html">Cushions and Throws</a></li>
+          </ul>
+        </li>
+
+        <!-- Kitchen Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown fs-5" href="#" id="kitchenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kitchen</a>
+          <ul class="dropdown-menu" aria-labelledby="kitchenDropdown">
+            <li><a class="dropdown-item fs-6" href="cabinet.html">Cabinets and Pantries</a></li>
+            <li><a class="dropdown-item fs-6" href="countertop.html">Counter Tops</a></li>
+            <li><a class="dropdown-item fs-6" href="faucets.html">Sinks and Faucets</a></li>
+            <li><a class="dropdown-item fs-6" href="carts.html">Kitchen Island and Carts</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link fs-5" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="comparre.html">Compare</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="contact us.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="about us.html">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Side Icons -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="cart.html" class="text-dark fs-5" title="Cart"><i class="fas fa-shopping-cart"></i></a>
+      <a href="profile.html" class="text-dark fs-5" title="Profile"><i class="fas fa-user"></i></a>
+    </div>
+
+  </div>
+</nav>
+
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000" data-bs-wrap="true">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://sharjeelkha9.github.io/techwiz5/images/home.jpg" class="d-block w-100 h-100 img-fluid" alt="First slide">
+      </div>
+      <!-- <div class="carousel-item">
+        <img src="images/ssa.jpg" class="d-block w-100 h-100 img-fluid" alt="Second slide">
+      </div> -->
+      <!-- <div class="carousel-item">
+        <img src="https://elathemes.rangosoft.com/mobel/assets/images/gallery-3.jpg" class="d-block w-100 h-100 img-fluid" alt="Third slide">
+      </div> -->
+    </div>
+  </div>
+
+      
+
+    <!-- <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+  </div> -->
+
+<h1 class="text-center my-5 category-heading"  data-aos="fade-up"><span class="first-letter">O</span>ur Category <span class="underline-line"></span></h1>
+<div class="container py-4">
+  <div class="d-flex flex-wrap gap-5 justify-content-center">
+    <div class="modern-card" style="flex: 0 1 300px;">
+     <a href="gallery.html">
+       <img src="images/fc1.jpg" alt="Seating" class="card-img" />
+     </a>
+      <div class="card-content">
+        <h3>Furniture</h3>
+        <p>Furniture transforms a house into a home</p>
+      </div>
+    </div>
+    <div class="modern-card" style="flex: 0 1 300px;">
+<a href="gallery.html">
+     <img src="images/kc2.jpg" alt="Kitchen" class="card-img" />
+
+</a>
+      <div class="card-content">
+        <h3>Kitchen</h3>
+        <p>The kitchen is the heart of the home</p>
+      </div>
+    </div>
+    <div class="modern-card" style="flex: 0 1 300px;">
+<a href="gallery.html">
+     <img src="images/dc3.jpg" alt="Decor" class="card-img" />
+
+</a>
+      <div class="card-content">
+        <h3>Decor</h3>
+        <p>Decor adds personality and charm, turning walls.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<h1 class="text-center my-5 category-heading text-center" data-aos="fade-up">
+  <span class="first-letter">F</span>urniture
+  <span class="underline-line"></span>
+</h1>
+
+
+<div data-aos="fade-right" class="container py-4">
+  <div class="row g-4 justify-content-center">
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="sofa.html">
+      <img src="images/fs1.webp" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Sofas And Couches</h6>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="bed.html">
+      <img src="https://assets.wfcdn.com/im/80077057/resize-h800-w800%5Ecompr-r85/2536/253604880/Ameire+Upholstered+Wingback+Bed.jpg" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Bed And Matress
+</h6>
+    </div>
+  </div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="table.html">
+      <img src="https://assets.wfcdn.com/im/31694555/resize-h800-w800%5Ecompr-r85/1987/198723411/Ebern+Designs+Steel+Patio+Side+Table%2C+Weather+Resistant+Outdoor+Round+End+Table.jpg" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Table</h6>
+    </div>
+  </div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="storage.html">
+      <img src="https://assets.wfcdn.com/im/88371152/resize-h800-w800%5Ecompr-r85/2583/258377335/John+Louis+Home+Solid+Wood+Reach-In+Simplicity+Closet+System.jpg" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Storage </h6>
+    </div>
+  </div>
+</div>  
+  </div>
+</div>
+
+
+
+
+
+<h1 class="text-center my-5 category-heading"  data-aos="fade-up"><span class="first-letter">D</span>ecor
+  <span class="underline-line"></span>
+
+</h1>
+<div data-aos="fade-right" class="container py-4">
+  <div class="row g-4 justify-content-center">
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="decorrugs.html">
+      <img src="https://www.vsurfaces.com/cdn/shop/files/turkish-modern-festival-wd-rug-32-x-49-ft-gray-sleek-and-minimalist-for-chic-interiors-794738.jpg?v=1717154293&width=1800" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Rugs And Carpet</h6>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="decorcurtain.html">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRf3KXSoX0YvRKPDIsH9iGtQ9Q5Yq22vITBZw&s" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Curtain And Blinds
+
+</h6>
+    </div>
+  </div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="cusiondecor.html">
+      <img src="https://myhomestore.pk/cdn/shop/products/8627b592-040e-48bc-b996-0e460ee8db9c_600x.jpg?v=1662469225" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Wall Art And Mirror</h6>
+    </div>
+  </div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="dec">
+      <img src="https://myhomestore.pk/cdn/shop/files/71TqjoOvOsL._AC_SX569_500x.jpg?v=1718022537" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Cusions And Throws </h6>
+    </div>
+  </div>
+</div>  
+  </div>
+</div>
+
+
+<h1 class="text-center my-5 category-heading"  data-aos="fade-up"><span class="first-letter">K</span>itchen
+  <span class="underline-line"></span>
+
+</h1>
+<div data-aos="fade-right" class="container py-4">
+  <div class="row g-4 justify-content-center">
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="cabinet.html">
+      <img src="https://blog.taylormorrison.com/wp-content/uploads/2019/06/Lee-Crowder-Waterbridge-Granite-1024x683.jpg" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Cabinets and Pantries  </h6>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="countertop.html">
+      <img src="https://assets.wfcdn.com/im/16613384/resize-h800-w800%5Ecompr-r85/2837/283797337/Allycia+Kitchen+Island.jpg" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Counter Tops
+</h6>
+    </div>
+  </div>
+</div>
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="faucets.html">
+      <img src="https://assets.wfcdn.com/im/01249263/resize-h800-w800%5Ecompr-r85/2768/276870413/Pull+Down+Single+Handle+Kitchen+Faucet+with+Accessories.jpg" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Sinks and Faucets
+</h6>
+    </div>
+  </div>
+</div>
+
+<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+  <div class="card shadow-sm border-0 position-relative">
+    <a href="carts.html">
+      <img src="https://assets.wfcdn.com/im/02837705/resize-h800-w800%5Ecompr-r85/1565/156575980/Algona+Kitchen+Cart.jpg" class="card-img-top" alt="Wooden Sofa" style="height: 200px; width: 100%; object-fit:cover;">
+    </a>
+    
+    <!-- Hidden button initially -->
+    <a href="sofa.html" class="btn btn-primary w-100 mt-3 overlay-btn" style="background-color: #FFBB00; border: none; font-weight: bold; padding: 12px 0; border-radius: 8px; transition: all 0.3s ease; display:none; position:absolute; bottom: 15px; left: 10px; right: 10px; text-align: center;">
+      View Sofa Section
+    </a>
+
+    <div class="card-body text-center">
+      <h6 class="card-title">Kitchen Island and Carts </h6>
+    </div>
+  </div>
+</div>  
+  </div>
+</div>
+<section class="services-section" id="services">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold">Our Services</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <div class="card-body">
+            <div class="mb-3"><i class="bi bi-truck fs-1"></i></div>
+            <h5 class="card-title fw-bold">Fast Delivery & Installation</h5>
+            <p class="card-text">We deliver furniture safely to your doorstep and provide professional setup.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <div class="card-body">
+            <div class="mb-3"><i class="bi bi-brush fs-1"></i></div>
+            <h5 class="card-title fw-bold">Customization</h5>
+            <p class="card-text">Choose size, fabric, finish, or material to match your style and space.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm">
+          <div class="card-body">
+            <div class="mb-3"><i class="bi bi-house-door fs-1"></i></div>
+            <h5 class="card-title fw-bold">Interior Consultation</h5>
+            <p class="card-text">Get expert advice and room planning to create perfect interiors.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+ 
+<div class="subscribe-section bg-light text-dark">
+  <h2>Get Discount Info</h2>
+  <p>Subscribe to the Decor Delight mailing list to receive updates...</p>
+ <div class="d-flex justify-content-center align-items-center">
+<input
+  type="email"
+  class="form-control w-25"
+  placeholder="Email"
+  id="emailInput"
+  pattern="^[^\s@]+@[^\s@]+\.[^\s@]+$"
+  required
+>
+
+  
+</div>
+<button class="subscribe-btn btn btn-warning w-25 p-2" id="subscribeBtn">Subscribe</button>
+</div>
+
+
+<footer class="py-4 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="images/Group 4.png" alt="Furniture World Logo" class="navbar-logo">
+          <p class  ="footer-logo-text">Your one-stop shop for quality furniture. Transform your home with our premium collection and bring elegance and comfort into every room.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Shop</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Products</h5>
+            <ul class="list-unstyled">
+            <li><a href="sofa.html">Furniture</a></li>
+            <li><a href="decorcurtain.html">Decor</a></li>
+            <li><a href="faucets.html">Kitchen</a></li>
+          
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contact Us</h5> 
+          <p>Phone: +1 (555) 123-4567<br>Email: info@furnitureworld.com</p>
+          <p>Aptech Franchise Support Office, Suite # 103, Progressive Center, PECHS Block 6, Main Shahrah-e-Faisal,, Karachi, Sindh,75600</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-3  ">
+      <p class="copy ">&copy; 2025 Furniture World. All rights reserved.</p>
+    </div>
+    
+  </footer>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="home.js"></script>
+</body>
+</html>

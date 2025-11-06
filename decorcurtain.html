@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="home.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="website icon" type="png" href="images/g.jpg" style="background-color: transparent;">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="website icon" type="png" href="images/Group 1 (3).png" style="background-color: transparent;">
+<style>
+  .card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.card-body {
+  padding: 1.2rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.6rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  border: none;
+  /* border-radius: 30px; */
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+   background-color: #e0a800;
+   color: black;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+    background-color: #e0a800;
+}
+</style>
+  </head>
+<body>
+  <!-- Header / Navbar -->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky top-0 shadow-sm" style="z-index: 1000;">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="images/Group 4.png" alt="Logo" class="navbar-logo" style="height: 69px
+;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+      <!-- Centered Links -->
+      <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-4 text-center">
+        <li class="nav-item"><a class="nav-link fs-5" href="home.html">Home</a></li>
+
+        <!-- Furniture Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown  fs-5" href="#" id="furnitureDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Furniture</a>
+          <ul class="dropdown-menu" aria-labelledby="furnitureDropdown">
+            <li><a class="dropdown-item fs-6" href="sofa.html">Sofas and Couches</a></li>
+            <li><a class="dropdown-item fs-6" href="bed.html">Beds and Mattresses</a></li>
+            <li><a class="dropdown-item fs-6" href="table.html">Tables</a></li>
+            <li><a class="dropdown-item fs-6" href="storage.html">Storage</a></li>
+          </ul>
+        </li>
+
+        <!-- Decor Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown fs-5" href="#" id="decorDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Decor</a>
+          <ul class="dropdown-menu" aria-labelledby="decorDropdown">
+            <li><a class="dropdown-item fs-6" href="decorrugs.html">Rugs and Carpets</a></li>
+            <li><a class="dropdown-item fs-6" href="decorcurtain.html">Curtains and Blinds</a></li>
+            <li><a class="dropdown-item fs-6" href="decormirror.html">Wall Art and Mirrors</a></li>
+            <li><a class="dropdown-item fs-6" href="cusiondecor.html">Cushions and Throws</a></li>
+          </ul>
+        </li>
+
+        <!-- Kitchen Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown fs-5" href="#" id="kitchenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kitchen</a>
+          <ul class="dropdown-menu" aria-labelledby="kitchenDropdown">
+            <li><a class="dropdown-item fs-6" href="cabinet.html">Cabinets and Pantries</a></li>
+            <li><a class="dropdown-item fs-6" href="countertop.html">Counter Tops</a></li>
+            <li><a class="dropdown-item fs-6" href="faucets.html">Sinks and Faucets</a></li>
+            <li><a class="dropdown-item fs-6" href="carts.html">Kitchen Island and Carts</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link fs-5" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="comparre.html">Compare</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="contact us.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="about us.html">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Side Icons -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="cart.html" class="text-dark fs-5" title="Cart"><i class="fas fa-shopping-cart"></i></a>
+      <a href="profile.html" class="text-dark fs-5" title="Profile"><i class="fas fa-user"></i></a>
+    </div>
+
+  </div>
+</nav>
+   <!-- Banner -->
+  <img src="https://png.pngtree.com/thumb_back/fh260/back_our/20190621/ourmid/pngtree-taobao-tmall-home-decoration-festival-banner-template-image_190319.jpg" alt="" class="img-fluid" height="100%" width="100%">
+  <!-- banner end -->
+<h1 class="text-center my-2 mb-5 my-5">Curtain And Blinds</h1>
+<div class="container-fluid w-100" style="margin: 0; padding: 0;">
+    <div class="row">
+    
+<div class="container-fluid w-100" style="margin: 0; padding: 0;">
+          <form class="w-25 mx-4 my-4">
+          <div class="form-group">
+          <input class="form-control me-2" type="search" placeholder="Search" id="myInput" style="max-width: 500px;">
+
+         
+        </form>
+     
+       
+  
+  </div> 
+       <div class="row mx-3" id="show1"></div>
+    </div>
+</div>
+<footer class="py-4 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="images/Group 4.png" alt="Furniture World Logo" class="navbar-logo">
+          <p class  ="footer-logo-text">Your one-stop shop for quality furniture. Transform your home with our premium collection and bring elegance and comfort into every room.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Shop</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Products</h5>
+            <ul class="list-unstyled">
+            <li><a href="sofa.html">Furniture</a></li>
+            <li><a href="decorcurtain.html">Decor</a></li>
+            <li><a href="faucets.html">Kitchen</a></li>
+          
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contact Us</h5> 
+          <p>Phone: +1 (555) 123-4567<br>Email: info@furnitureworld.com</p>
+          <p>Aptech Franchise Support Office, Suite # 103, Progressive Center, PECHS Block 6, Main Shahrah-e-Faisal,, Karachi, Sindh,75600</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-3  ">
+      <p class="copy ">&copy; 2025 Furniture World. All rights reserved.</p>
+    </div>
+    
+  </footer>
+<script>
+    fetch("main.json")
+    .then(response => response.json())
+    .then(data => {
+
+        html1 = "";
+        data.curtain.forEach(c => {
+            
+           html1 += 
+           `   <div class="col-lg-4 col-md-4 col-sm-12 mb-5">
+          <div class="card h-100 w-100">
+            <img src="${c.image}" class="card-img-top" alt="${c.image}">
+            <div class="card-body">
+              <h5 class="card-title">${c.name}</h5>
+              <a href="curtaindet.html" class="btn btn-primary" onclick="getid(${c.id})">View Details </a>
+            </div>
+          </div>
+        </div>`
+        });
+        document.getElementById("show1").innerHTML=html1;
+    });
+
+    function getid(id){
+        localStorage.setItem("id2",id);
+    }
+
+</script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Elite Brand Fusion — Compare Masterpieces</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="website icon" type="png" href="images/g.jpg" style="background-color: transparent;">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+     <link rel="website icon" type="png" href="images/Group 1 (3).png" style="background-color: transparent;">
+<!-- <link rel="stylesheet" href="contact us.css"> -->
+<!-- <link rel="stylesheet" href="about us.css"> -->
+  <style>
+    body {
+      background-color: white;
+      color: #000;
+      /* font-family: 'Poppins', sans-serif; */
+    }
+    h1 {
+      color: #D4AF37;
+      font-weight: 700;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .row {
+      display: flex;
+      justify-content: space-evenly;
+      align-items: flex-start;
+      padding: 50px;
+      flex-wrap: wrap;
+    }
+    .box {
+      width: 45%;
+      padding: 20px;
+      border: 1px solid #D4AF37;
+      border-radius: 10px;
+      text-align: center;
+      margin-bottom: 30px;
+      background-color: #111;
+      box-shadow: 0 0 15px rgba(212,175,55,0.2);
+    }
+    .p_imgs {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 2px solid #D4AF37;
+      border-radius: 10px;
+    }
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      color: #000;
+      border: 1px solid #D4AF37;
+      border-radius: 5px;
+      font-weight: 500;
+    }
+    .product_price {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #D4AF37;
+    }
+    .product_desc {
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light position-sticky top-0 shadow-sm" style="z-index: 1000;">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="#">
+      <img src="images/Group 4.png" alt="Logo" class="navbar-logo" style="height: 69px
+;">
+    </a>
+
+    <!-- Toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Content -->
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+
+      <!-- Centered Links -->
+      <ul class="navbar-nav mb-2 mb-lg-0 gap-lg-4 text-center">
+        <li class="nav-item"><a class="nav-link fs-5" href="home.html">Home</a></li>
+
+        <!-- Furniture Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown  fs-5" href="#" id="furnitureDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Furniture</a>
+          <ul class="dropdown-menu" aria-labelledby="furnitureDropdown">
+            <li><a class="dropdown-item fs-6" href="sofa.html">Sofas and Couches</a></li>
+            <li><a class="dropdown-item fs-6" href="bed.html">Beds and Mattresses</a></li>
+            <li><a class="dropdown-item fs-6" href="table.html">Tables</a></li>
+            <li><a class="dropdown-item fs-6" href="storage.html">Storage</a></li>
+          </ul>
+        </li>
+
+        <!-- Decor Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown fs-5" href="#" id="decorDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Decor</a>
+          <ul class="dropdown-menu" aria-labelledby="decorDropdown">
+            <li><a class="dropdown-item fs-6" href="decorrugs.html">Rugs and Carpets</a></li>
+            <li><a class="dropdown-item fs-6" href="decorcurtain.html">Curtains and Blinds</a></li>
+            <li><a class="dropdown-item fs-6" href="decormirror.html">Wall Art and Mirrors</a></li>
+            <li><a class="dropdown-item fs-6" href="cusiondecor.html">Cushions and Throws</a></li>
+          </ul>
+        </li>
+
+        <!-- Kitchen Dropdown -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown fs-5" href="#" id="kitchenDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kitchen</a>
+          <ul class="dropdown-menu" aria-labelledby="kitchenDropdown">
+            <li><a class="dropdown-item fs-6" href="cabinet.html">Cabinets and Pantries</a></li>
+            <li><a class="dropdown-item fs-6" href="countertop.html">Counter Tops</a></li>
+            <li><a class="dropdown-item fs-6" href="faucets.html">Sinks and Faucets</a></li>
+            <li><a class="dropdown-item fs-6" href="carts.html">Kitchen Island and Carts</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link fs-5" href="brand.html">Brands</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="comparre.html">Compare</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="contact us.html">Contact Us</a></li>
+        <li class="nav-item"><a class="nav-link fs-5" href="about us.html">About Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Right Side Icons -->
+    <div class="d-flex align-items-center gap-3">
+      <a href="cart.html" class="text-dark fs-5" title="Cart"><i class="fas fa-shopping-cart"></i></a>
+      <a href="profile.html" class="text-dark fs-5" title="Profile"><i class="fas fa-user"></i></a>
+    </div>
+
+  </div>
+</nav>
+
+  <img src="images/ban1.png" alt=""  height="500px" width="100%">
+
+
+  <div class="container">
+    <h1 class="text-center py-4">Elite Brand Fusion — Compare Masterpieces</h1>
+    <div class="row">
+      <!-- Product 1 -->
+      <div class="box">
+        <select id="brand1" onchange="loadProducts(1)">
+          <option value="">Select Brand</option>
+          <option value="BrandA">IronRoot Furnishings</option>
+          <option value="BrandB">UrbanEdge Furniture Co.</option>
+        </select>
+
+        <select id="product1" onchange="displayProduct(1)">
+          <option value="">Select Product</option>
+        </select>
+
+        <img src="" alt="" class="p_imgs" id="productimgchange1" />
+        <div class="product_data">
+          <h3 class="product_title" id="p_title1"></h3>
+          <p class="product_price" id="p_price1"></p>
+          <p class="product_desc" id="p_desc1"></p>
+        </div>
+      </div>
+
+      <!-- Product 2 -->
+      <div class="box">
+        <select id="brand2" onchange="loadProducts(2)">
+          <option value="">Select Brand</option>
+          <option value="BrandAA">NordicHome Studio</option>
+          <option value="BrandBB">GreenWood Creations</option>
+        </select>
+
+        <select id="product2" onchange="displayProduct(2)">
+          <option value="">Select Product</option>
+        </select>
+
+        <img src="" alt="" class="p_imgs" id="productimgchange2" />
+        <div class="product_data">
+          <h3 class="product_title" id="p_title2"></h3>
+          <p class="product_price" id="p_price2"></p>
+          <p class="product_desc" id="p_desc2"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- JS Logic -->
+  <script>
+    const productData = {
+      BrandA: [
+        {
+          name: "Rustic Iron Bed Frame",
+          price: "950",
+          desc: "Wrought Iron + Oak Wood",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwlxmlpD2nGeo3CwZTrXsi1lBtKgxrb21IvA&s"
+        },
+        {
+          name: "Rustic Coffee Table",
+          price: "520",
+          desc: "Steel Frame + Reclaimed Wood",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkj4cseffBAHLBlxj8G5j4iQGi7eFmilppfQ&s"
+        },
+        {
+          name: "Industrial Bookshelf",
+          price: "680",
+          desc: "Iron + Solid Wood Shelves",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqCjPrKCf6F0MlPCEruPDCJGyeN7Rh7NG5qQ&s"
+        }
+      ],
+      BrandB: [
+        {
+          name: "Steel Frame Sofa",
+          price: "1150",
+          desc: "Steel + Cotton Fabric",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9gLiMy56BMJuT3IHbr73IMl42VGFGbkAxoA&s"
+        }
+      ],
+      BrandAA: [
+        {
+          name: "Minimalist Bed Frame",
+          price: "980",
+          desc: "Beechwood + Natural Finish",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXcasiIpXmss475XlQvAmdSLsTih4UiQj7pw&s"
+        },
+        {
+          name: "Nordic Coffee Table",
+          price: "550",
+          desc: "Oak Veneer + White Finish",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1vttw9EhRd8STeNVyx4O2DfcvkPbtNsCRYg&s"
+        },
+        {
+          name: "Scandi Bookshelf",
+          price: "640",
+          desc: "Oak Veneer",
+          image: "https://i.etsystatic.com/13874610/r/il/5afb06/5881532876/il_300x300.5881532876_adrb.jpg"
+        }
+      ],
+      BrandBB: [
+        {
+          name: "Rattan Lounge Sofa",
+          price: "970",
+          desc: "Rattan + Organic Fabric",
+          image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN-FhLYc9sTT2f1J5Cy7VGy8JApgBPTVU2_g&s"
+        }
+      ]
+    };
+
+    function loadProducts(boxNum) {
+      const brandSelect = document.getElementById(`brand${boxNum}`);
+      const productSelect = document.getElementById(`product${boxNum}`);
+      const brand = brandSelect.value;
+      productSelect.innerHTML = `<option value="">Select Product</option>`;
+
+      if (brand && productData[brand]) {
+        productData[brand].forEach((product, index) => {
+          const opt = document.createElement("option");
+          opt.value = index;
+          opt.textContent = product.name;
+          productSelect.appendChild(opt);
+        });
+      }
+
+      document.getElementById(`productimgchange${boxNum}`).src = "";
+      document.getElementById(`p_title${boxNum}`).innerText = "";
+      document.getElementById(`p_price${boxNum}`).innerText = "";
+      document.getElementById(`p_desc${boxNum}`).innerText = "";
+    }
+
+    function displayProduct(boxNum) {
+      const brand = document.getElementById(`brand${boxNum}`).value;
+      const productIndex = document.getElementById(`product${boxNum}`).value;
+
+      if (brand && productData[brand] && productData[brand][productIndex]) {
+        const product = productData[brand][productIndex];
+        document.getElementById(`productimgchange${boxNum}`).src = product.image;
+        document.getElementById(`p_title${boxNum}`).innerText = product.name;
+        document.getElementById(`p_price${boxNum}`).innerText = `PKR ${product.price}`;
+        document.getElementById(`p_desc${boxNum}`).innerText = product.desc;
+      }
+    }
+  </script>
+<footer class="py-4 ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <img src="images/Group 4.png" alt="Furniture World Logo" class="navbar-logo">
+          <p class  ="footer-logo-text">Your one-stop shop for quality furniture. Transform your home with our premium collection and bring elegance and comfort into every room.</p>
+        </div>
+        <div class="col-md-3">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="home.html">Home</a></li>
+            <li><a href="gallery.html">Shop</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="contact us.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Products</h5>
+            <ul class="list-unstyled">
+            <li><a href="sofa.html">Furniture</a></li>
+            <li><a href="decorcurtain.html">Decor</a></li>
+            <li><a href="faucets.html">Kitchen</a></li>
+          
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <h5>Contact Us</h5> 
+          <p>Phone: +1 (555) 123-4567<br>Email: info@furnitureworld.com</p>
+          <p>Aptech Franchise Support Office, Suite # 103, Progressive Center, PECHS Block 6, Main Shahrah-e-Faisal,, Karachi, Sindh,75600</p>
+        </div>
+      </div>
+    </div>
+    <div class="text-center py-3  ">
+      <p class="copy ">&copy; 2025 Furniture World. All rights reserved.</p>
+    </div>
+    
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,233 @@
+  body {
+      background-color: #fff;
+      color: #000;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Hero Section */
+    .contact-hero {
+      background-color: #FE7301;
+      color: #fff;
+      padding: 100px 0;
+    }
+
+    .hero-title {
+      font-size: 48px;
+      font-weight: 700;
+    }
+
+    .hero-subtitle {
+      font-size: 18px;
+      margin-top: 15px;
+    }
+
+
+
+
+    /* Contact Methods */
+    .contact-methods {
+      background-color: #fff;
+      color: #000;
+      padding: 60px 0;
+    }
+
+    .section-badge {
+      color: #FE7301;
+      font-weight: 600;
+    }
+
+    .contact-cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .contact-card {
+      background-color: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      text-align: center;
+      padding: 30px;
+      width: 300px;
+    }
+
+    .contact-card .card-icon {
+      font-size: 36px;
+      color: #d4af37;
+      margin-bottom: 15px;
+    }
+.contact-hero {
+    background-color: #d4af37;
+    
+ 
+}
+.abc {
+
+    background-color: #d4af37;
+    border-color: #d4af37;
+}
+.form-header h2 {
+    color: #d4af37;
+}
+.section-badge {
+    color: #d4af37;
+    font-weight: 600;
+    font-size: 58px;
+}
+.first-letter {
+  font-size: 75px;
+  color: black;
+ }
+
+    .contact-card a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    /* Form Section */
+    .contact-form-section {
+      background-color: #fff;
+      color: #000;
+      padding: 60px 0;
+    }
+
+    .form-container {
+      max-width: 943px;
+      margin: 0 auto;
+      background: #f8f8f8;
+      border-radius: 10px;
+      padding: 40px;
+      border: 1px solid #ddd;
+    }
+
+
+    label i {
+      color: #FE7301;
+      margin-right: 5px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-bottom: 15px;
+      background: #fff;
+      color: #000;
+    }
+
+    .btn-primary {
+      background-color: #FE7301;
+      border: none;
+    }
+
+    .btn-primary:hover {
+      background-color: #e76700;
+    }
+
+    .btn-secondary {
+      background-color: #ccc;
+      border: none;
+      color: #000;
+    }
+
+    .checkbox-label a {
+      color: #FE7301;
+    }
+
+    /* Sidebar */
+    .contact-sidebar .sidebar-card {
+      background: #f8f8f8;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .sidebar-card h3 {
+      color: #FE7301;
+    }
+
+    .social-links a {
+      color: #FE7301;
+      margin-right: 10px;
+    }
+
+    /* Map Section */
+    .map-section {
+      background: #fff;
+      padding: 60px 0;
+      color: #000;
+    }
+
+    .info-card {
+      background: #f8f8f8;
+      padding: 20px;
+      border-radius: 10px;
+      border: 1px solid #ddd;
+    }
+
+    .btn-outline {
+      color: #FE7301;
+      border: 1px solid #FE7301;
+    }
+
+    .btn-outline:hover {
+      background-color: #FE7301;
+      color: #fff;
+    }
+
+    /* FAQ Section */
+    .faq-section {
+      background-color: #fff;
+      padding: 60px 0;
+      color: #000;
+    }
+
+    .faq-question {
+      display: flex;
+      justify-content: space-between;
+      background: #f8f8f8;
+      border: 1px solid #ddd;
+      padding: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .faq-question h4 {
+      margin: 0;
+    }
+
+    .faq-answer {
+      display: none;
+      padding: 10px 15px;
+      border-left: 2px solid #FE7301;
+      background-color: #fff;
+    }
+
+    .faq-item.active .faq-answer {
+      display: block;
+    }
+
+    footer {
+      background-color: #f8f8f8;
+      color: #000;
+    }
+
+    .copy {
+      color: #000;
+    }
+    @media (min-width: 1200px) {
+    .h2, h2 {
+        font-size: 2rem;
+        background: none;
+    }
+}
+
+.h2, h2 {
+    font-size: calc(1.325rem + .9vw);
+    background: noen;
+    background: none;
+}

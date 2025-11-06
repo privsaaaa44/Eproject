@@ -1,0 +1,240 @@
+
+body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+.brand-section { margin-bottom: 40px; }
+  h2 { background-color: #f0f0f0; padding: 10px; border-radius: 5px; }
+  .product { display: flex; margin: 10px 0; border-bottom: 1px solid #ddd; padding-bottom: 10px; }
+  .product img { width: 120px; height: 120px; object-fit: cover; margin-right: 15px; border-radius: 5px; }
+  .product-info { max-width: 600px; }
+  .product-name { font-weight: bold; font-size: 18px; margin-bottom: 5px; }
+  .product-price { color: green; margin-bottom: 5px; }
+  .search-container { margin-bottom: 30px; }
+  input[type="text"] {
+    width: 300px;
+    padding: 8px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  .no-results {
+    color: red;
+    font-style: italic;
+  }
+.card {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+     border-radius: 100px;
+    
+}
+ .fb-container {
+      padding: 40px 20px;
+      background-color: #f9f9f9;
+    }
+
+    .fb-title {
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .fb-search-bar {
+      max-width: 500px;
+      margin: 0 auto 30px;
+    }
+
+    .fb-btn-group .btn {
+      margin: 5px;
+    }
+
+    .fb-brand-card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      padding: 20px;
+      text-align: center;
+      transition: 0.3s ease-in-out;
+      height: 100%;
+    }
+
+    .fb-brand-card:hover {
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .fb-brand-logo {
+      height: 60px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .fb-no-results {
+      text-align: center;
+      color: #888;
+      margin-top: 20px;
+    }
+.card:hover {
+    transform: translateY(-6px);
+
+}
+
+
+.product-card {
+    max-width: 1100px;
+    margin: 50px auto;
+    background: #fff;
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+   
+}
+
+.product-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-details {
+    padding: 40px;
+}
+
+.price {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #28a745;
+}
+
+.btn-buy {
+    background: #0d6efd;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 25px;
+    transition: background 0.3s ease-;
+    margin-left: -50px;
+    /* gap: 6px; */
+}
+
+.btn-buy:hover {
+    background: #0b5ed7;
+}
+.btn1{
+    /* padding: 15px; */
+     background: #0d6efd;
+    color: #fff;
+    border-radius: 8px;
+    padding: 10px 25px;
+    transition: background 0.3s ease-;
+    border: none;
+    gap: 5px;
+    margin-left: 30px;
+  
+}
+.btn1:hover {
+    background: #0b5ed7;
+}
+ .product-card img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+    }
+    .product-details h2 {
+      font-weight: bold;
+    }
+    .btn-buy {
+      background-color: #ffc107;
+      border: none;
+      color: black;
+      margin-left: 10px;
+      font-weight: 500;
+    }
+    .btn-buy:hover {
+      background-color: #e0a800;
+    }
+    .btn1 {
+      background-color: #007bff;
+      border: none;
+      color: white;
+    }
+    .btn1:hover {
+      background-color: #0056b3;
+    }
+    .review-section {
+      margin-top: 60px;
+    }
+    .review {
+      background: #f8f9fa;
+      border-radius: 10px;
+      padding: 15px;
+      margin-bottom: 10px;
+    }
+    .related-products img {
+      border-radius: 10px;
+      height: 200px;
+      object-fit: cover;
+    }
+    .card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+  border-bottom: 1px solid #eee;
+}
+
+.card-body {
+  padding: 1.2rem;
+}
+
+.card-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.6rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  border: none;
+  /* border-radius: 30px; */
+  padding: 10px 25px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+   background-color: #e0a800;
+   color: black;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+    background-color: #e0a800;
+}
+.form-control{
+     border-radius: 20px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}

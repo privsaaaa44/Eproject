@@ -1,0 +1,230 @@
+{
+  "IronRoot Furnishings" :[
+        {
+          "id": 1,
+          "item_name": "Rustic Iron Bed Frame",
+          "category": "Bedroom",
+          "price": "$950",
+          "material": "Wrought Iron + Oak Wood",
+          "dimensions": "80 x 60 x 50 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSwlxmlpD2nGeo3CwZTrXsi1lBtKgxrb21IvA&s"
+        },
+        {
+          "id": 2,
+          "item_name": "Reclaimed Wood Dining Table",
+          "category": "Dining",
+          "price": "$1,200",
+          "material": "Iron Frame + Reclaimed Pine",
+          "dimensions": "84 x 40 x 30 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRy2hBNSA_RMeosu5jTnxUFqctWtn_3d44GAg&s"
+        },
+        {
+          "id": 3,
+          "item_name": "Industrial Bookshelf",
+          "category": "Living Room",
+          "price": "$680",
+          "material": "Iron + Solid Wood Shelves",
+          "dimensions": "72 x 30 x 14 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqCjPrKCf6F0MlPCEruPDCJGyeN7Rh7NG5qQ&s"
+        },
+        {
+          "id": 4,
+          "item_name": "Vintage Metal Desk",
+          "category": "Office",
+          "price": "$750",
+          "material": "Iron Base + Oak Top",
+          "dimensions": "60 x 30 x 30 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4c0UI4VSnJzkuMRdZSH5IhB7uTGtzAxqEPQ&s"
+        },
+        {
+          "id": 5,
+          "item_name": "Leather Accent Chair",
+          "category": "Living Room",
+          "price": "$890",
+          "material": "Iron Frame + Leather Upholstery",
+          "dimensions": "36 x 32 x 34 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT12Id_w2ohUdGzcgEfV7fFYZpESRIYiLHdxw&s"
+        },
+        {
+          "id": 6,
+          "item_name": "Rustic Coffee Table",
+          "category": "Living Room",
+          "price": "$520",
+          "material": "Steel Frame + Reclaimed Wood",
+          "dimensions": "48 x 28 x 18 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkj4cseffBAHLBlxj8G5j4iQGi7eFmilppfQ&s"
+        }
+    ],
+"NordicHome Studio" : [  
+
+        {
+          "id": 7,
+          "item_name": "Scandi Oak Dining Set",
+          "category": "Dining",
+          "price": "$1,350",
+          "material": "Solid Oak + Linen Cushions",
+          "dimensions": "Table: 72 x 36 x 30 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPBLbF4Yoz4wvFyTUPM6igYEMbMzOq-I0kjQ&s"
+        },
+        {
+          "id": 8,
+          "item_name": "Minimalist Bed Frame",
+          "category": "Bedroom",
+          "price": "$980",
+          "material": "Beechwood + Natural Finish",
+          "dimensions": "80 x 60 x 45 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXcasiIpXmss475XlQvAmdSLsTih4UiQj7pw&s"
+        },
+        {
+          "id": 9,
+          "item_name": "Linen Fabric Sofa",
+          "category": "Living Room",
+          "price": "$1,200",
+          "material": "Solid Birch + Linen Upholstery",
+          "dimensions": "84 x 35 x 34 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8d0vh-_449WhRjl0u1NaebJ-vfbeNbndo_w&s"
+        },
+        {
+          "id": 10,
+          "item_name": "Nordic Coffee Table",
+          "category": "Living Room",
+          "price": "$550",
+          "material": "Oak Veneer + White Finish",
+          "dimensions": "48 x 24 x 18 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1vttw9EhRd8STeNVyx4O2DfcvkPbtNsCRYg&s"
+        },
+        {
+          "id": 11,
+          "item_name": "Simple Study Desk",
+          "category": "Office",
+          "price": "$450",
+          "material": "Pine + White Coating",
+          "dimensions": "55 x 28 x 30 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdpHCpj0b1ZJ1uUxF5SF4G41ZEuGL4irfUsA&s"
+        },
+        {
+          "id": 12,
+          "item_name": "Scandi Bookshelf",
+          "category": "Living Room",
+          "price": "$640",
+          "material": "Oak Veneer",
+          "dimensions": "72 x 32 x 12 inches",
+          "image": "https://i.etsystatic.com/13874610/r/il/5afb06/5881532876/il_300x300.5881532876_adrb.jpg"
+        }
+      ],
+    
+    "UrbanEdge Furniture Co." :[
+        {
+          "id": 13,
+          "item_name": "Concrete Top Coffee Table",
+          "category": "Living Room",
+          "price": "$890",
+          "material": "Concrete Surface + Steel Legs",
+          "dimensions": "48 x 26 x 18 inches",
+          "image": "https://s.alicdn.com/@sc04/kf/H3bfe842aa8e449c29814f7be4161c005a/Nordic-Modern-Indoor-Accent-End-Table-Durable-Concrete-Cement-Coffee-Table-for-Home-Furniture-for-Living-Room.png_300x300.jpg"
+        },
+        {
+          "id": 14,
+          "item_name": "Steel Frame Sofa",
+          "category": "Living Room",
+          "price": "$1,150",
+          "material": "Steel + Cotton Fabric",
+          "dimensions": "82 x 34 x 35 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9gLiMy56BMJuT3IHbr73IMl42VGFGbkAxoA&s"
+        },
+        {
+          "id": 15,
+          "item_name": "Urban Dining Bench",
+          "category": "Dining",
+          "price": "$480",
+          "material": "Solid Oak + Steel Frame",
+          "dimensions": "60 x 16 x 18 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZ_XEr0u0PP3xDBM0nrBGs23MvoyVXmTH3tw&s"
+        },
+        {
+          "id": 16,
+          "item_name": "Industrial Wardrobe",
+          "category": "Bedroom",
+          "price": "$1,250",
+          "material": "Steel + Teak Panels",
+          "dimensions": "72 x 48 x 22 inches",
+          "image": "https://image.made-in-china.com/43f34j00wWebkBgrfTcj/Modern-Glass-Door-Wooden-Wardrobe-Bedroom-Furniture-Walk-in-Closet-Designs-Modern-Combination-Wardrobe.jpg"
+        },
+        {
+          "id": 17,
+          "item_name": "Urban Office Desk",
+          "category": "Office",
+          "price": "$880",
+          "material": "Walnut Wood + Metal Frame",
+          "dimensions": "60 x 30 x 30 inches",
+          "image": "https://i.etsystatic.com/14728260/r/il/2c97a5/7011433300/il_300x300.7011433300_as5w.jpg"
+        },
+        {
+          "id": 18,
+          "item_name": "Steel Lamp Stand",
+          "category": "Home Decor",
+          "price": "$290",
+          "material": "Metal + Matte Finish",
+          "dimensions": "18 x 18 x 58 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw0QUikljumbvfjdBNawYit4a7uiZRLwJVAg&s"
+        }
+      ],
+    
+   "GreenWood Creations" :[
+        {
+          "id": 19,
+          "item_name": "Bamboo Recliner Chair",
+          "category": "Outdoor",
+          "price": "$540",
+          "material": "Bamboo + Organic Cotton",
+          "dimensions": "35 x 32 x 38 inches",
+          "image": "https://www.myhomedecor.pk/wp-content/uploads/2022/11/Rocking-Chair-Velvet-Cushion-Max-Brown-300x300.jpg"
+        },
+        {
+          "id": 20,
+          "item_name": "Zen Low Table",
+          "category": "Living Room",
+          "price": "$680",
+          "material": "Bamboo + Matte Lacquer",
+          "dimensions": "40 x 40 x 12 inches",
+          "image": "https://i.etsystatic.com/50953905/r/il/4f5644/7110132611/il_300x300.7110132611_1v78.jpg"
+        },
+        {
+          "id": 21,
+          "item_name": "Tatami Bed Frame",
+          "category": "Bedroom",
+          "price": "$1,050",
+          "material": "Bamboo + Tatami Mat Surface",
+          "dimensions": "78 x 60 x 14 inches",
+          "image": "https://s.alicdn.com/@sc04/kf/H94e4b2cb0731419696662b67a2e1cb80Y/Bedroom-Furniture-Solid-Wood-Floating-Platform-Frame-Queen-King-Size-Low-Bed-Japanese-style-Tatami-Bed-Floating-Bed-Frame.jpg_300x300.jpg"
+        },
+        {
+          "id": 22,
+          "item_name": "Rattan Lounge Sofa",
+          "category": "Living Room",
+          "price": "$970",
+          "material": "Rattan + Organic Fabric",
+          "dimensions": "80 x 35 x 32 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSN-FhLYc9sTT2f1J5Cy7VGy8JApgBPTVU2_g&s"
+        },
+        {
+          "id": 23,
+          "item_name": "Eco Bookshelf",
+          "category": "Office",
+          "price": "$590",
+          "material": "Recycled Bamboo + Wood",
+          "dimensions": "72 x 30 x 12 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF4A0FwCyv5ghxMmY_5WwBphWEUbmQereiwA&s"
+        },
+        {
+          "id": 24,
+          "item_name": "Bamboo Dining Table",
+          "category": "Dining",
+          "price": "$1,180",
+          "material": "Bamboo + Natural Polish",
+          "dimensions": "84 x 40 x 30 inches",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYyDhsCWsC43kY2pb6gY-r5S5YoF4eSGjcaQ&s"
+        }
+      ]
+    }
+  

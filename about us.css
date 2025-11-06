@@ -1,0 +1,276 @@
+:root {
+  --primary-color: #2b7cff;
+  --secondary-color: #ffc107;
+  --accent-color: #e74c3c;
+  --text-dark: #2c3e50;
+  --text-light: #7f8c8d;
+  --bg-light: #f8f9fa;
+  --bg-white: #ffffff;
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-secondary: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  --shadow-light: 0 10px 30px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 20px 40px rgba(0, 0, 0, 0.15);
+  --shadow-heavy: 0 30px 60px rgba(0, 0, 0, 0.2);
+}
+
+/* ===================== */
+/* NAVBAR FIXED STYLES   */
+/* ===================== */
+.navbar {
+  background-color: #ffffff !important;
+  z-index: 1050 !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .nav-link {
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.navbar .nav-link:hover {
+  color: var(--primary-color) !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+/* ===================== */
+/* HERO SECTION          */
+/* ===================== */
+.hero-section {
+  position: relative;
+  background: url('images/about.png') center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 5rem 0;
+  z-index: 1;
+}
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0; /* BELOW NAVBAR */
+}
+
+.hero-overlay,
+.floating-elements,
+.floating-element {
+  z-index: 0 !important;
+}
+
+/* ===================== */
+/* GENERAL CLEAN STYLES  */
+/* ===================== */
+body {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4 {
+  color: #d4af37;
+  font-weight: 600;
+}
+
+/* ===================== */
+/* BUTTONS               */
+/* ===================== */
+.btn-primary {
+  background-color: #d4af37;
+  border: none;
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-outline {
+  border: 1px solid #d4af37;
+  color: #d4af37;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.btn-outline:hover {
+  background-color: #d4af37;
+  color: #000;
+}
+
+/* ===================== */
+/* CTA SECTION           */
+/* ===================== */
+.cta-section {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+/* ===================== */
+/* TEAM SECTION          */
+/* ===================== */
+.team-section {
+  background-color: #fff;
+  color: #000;
+}
+
+.team-member {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #000;
+  transition: transform 0.3s ease;
+}
+
+.team-member img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  filter: grayscale(100%);
+  transition: all 0.4s ease;
+}
+
+.team-member:hover img {
+  filter: grayscale(0%);
+  transform: scale(1.05);
+}
+
+.team-member .overlay {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.4s ease;
+}
+
+.team-member:hover .overlay {
+  top: 0;
+  opacity: 1;
+}
+
+.overlay .text {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.overlay .text span {
+  display: block;
+  color: #d4af37;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+/* ===================== */
+/* HERO TEXT             */
+/* ===================== */
+.hero-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  color: #d4af37;
+}
+
+.hero-subtitle {
+  font-size: 1.2rem;
+  color: #fff;
+}
+
+/* ===================== */
+/* ANIMATIONS            */
+/* ===================== */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.6s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.slide-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: all 0.6s ease;
+}
+
+.slide-in-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slide-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.6s ease;
+}
+
+.slide-in-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ===================== */
+/* RESPONSIVE STYLES     */
+/* ===================== */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  .team-member img {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title,
+  .section-title,
+  .cta-content h2 {
+    font-size: 2rem;
+  }
+}
