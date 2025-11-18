@@ -73,7 +73,7 @@
     width: 100px;
   }
   button.navbar-toggler.collapsed {
-    margin-top: -8px !important;
+    margin-top: 4px !important;
    
     margin-left: 90px !important;
 }
