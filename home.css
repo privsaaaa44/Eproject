@@ -15,7 +15,9 @@
   .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
   }
+
 }
+
 
 .category-heading .underline-line {
   display: block;
@@ -63,13 +65,19 @@
 /* Optional: Stack logo and toggler better on very small screens */
 @media (max-width: 575.98px) {
   .navbar-brand img {
-    max-width: 120px;
+   width: 100%;
   }
 
   .navbar-icons {
     justify-content: center;
-    width: 100%;
+    width: 100px;
   }
+  button.navbar-toggler.collapsed {
+    margin-top: -8px !important;
+   
+    margin-left: 90px !important;
+}
+
 }
 
         
